@@ -7,7 +7,7 @@ async function translateText() {
   const response = await fetch("https://api-inference.huggingface.co/models/Helsinki-NLP/opus-mt-id-en", {
     method: "POST",
     headers: {
-      "Authorization": "Bearer hf_abcd1234efgh5678" // Ganti dengan API Key HuggingFace kamu
+      "Authorization": "Bearer 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" // Ganti dengan API Key HuggingFace kamu
       "Content-Type": "application/json"
     },
     body: JSON.stringify({ inputs: text })
